@@ -109,7 +109,7 @@ public class OdinHierarchySettings : ScriptableObject
         [Button(Name = "Reference...")]
         public void ViewIcons()
         {
-            EditorIconsOverview.OpenOverivew();
+            EditorIconsOverview.OpenOverview();
         }
 
         [ShowIf("iconAndSecret"), Indent(1)]
